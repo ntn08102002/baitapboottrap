@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.text-primary{
+    color : #d4a762 !important ;
+    font-family: 'Playball', cursive;
+}
+.nav-bar{
+    background: #fffcf8 ;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+.text-color{
+    color : #d4a762 !important ;
+}
+.navbar-collapse{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    display: flex !important;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    list-style: none
+}
+.navbar .navbar-nav .nav-link {
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.navbar-light .navbar-collapse .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+}
+.btn-search{
+    border:none ;
+    border-radius: 100%;
+}
+.btn{
+    background-color :#d4a762 ;
+    font-weight: 600;
+}
+.img-fluid{
+    height :auto ;
+    width: 100%;
+}
+
+.d-inline-block{
+    display:inline-block !important;
+}
+
+.border{
+    border-color: #d4a762 !important;
+
+}
+
+.mt-0{
+    margin-top: 0 !important;
+}
+.bg-light {
+    background-color: #fffcf8 !important;
+}
+.py-1 {
+    padding-top: .25rem !important;
+    padding-bottom: .25rem !important;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.text{
+    font-family: 'Playball', cursive !important;
+}
+.btn:hover{
+    background-color: black !important; 
+    color: #d4a762 !important; ; 
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.name-p{
+    font-family: 'Playball', cursive;
+}
+.text-prime{
+    color :#d4a762 !important ; 
+}
+.bg-primary {
+    background-color: #d4a762 !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.p-4 {
+    padding: 1.5rem !important;
+}
+.row{
+    display:flex; 
+    flex-wrap: wrap;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.text-style{
+    font-family: 'Playball', cursive;
+}
+.service-content:hover .service-content::after {
+    height: 100%;
+    opacity: 1;
+}
+.service-content::before{
+    box-sizing: border-box !important;
+}
+.service-item:hover .service-content-icon i {
+    color: var(--bs-dark) !important
+}
+.fas{
+    font-weight: 900;
+}
+.fa-7x{
+    font-size: 7em;
+}
+.service-content::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    background: var(--bs-primary);
+    border-radius: 8px;
+    transition: 1s;
+}
