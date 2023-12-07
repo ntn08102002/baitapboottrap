@@ -1,7 +1,16 @@
+@import  url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.text-primary{
-    color : #d4a762 !important ;
+.navbar-brand .text-color{
+   
     font-family: 'Playball', cursive;
+}
+.body {
+    margin: 0;
+    font-family: "Open Sans",sans-serif !important ;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9a9a9a;
 }
 .nav-bar{
     background: #fffcf8 ;
@@ -48,7 +57,7 @@
 
 .border{
     border-color: #d4a762 !important;
-
+    text-decoration: none;
 }
 
 .mt-0{
@@ -135,4 +144,18 @@
     background: var(--bs-primary);
     border-radius: 8px;
     transition: 1s;
+}
+.rounded-fill{
+    border-radius: 50rem !important;
+}
+.d-flex{
+    display:flex !important;
+}
+.text-n{
+    font-family: "Open Sans",sans-serif !important ;
+    color:black;
+    
+}
+.dropdown-menu{
+    border-radius: 10px;
 }
